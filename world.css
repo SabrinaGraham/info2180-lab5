@@ -19,7 +19,7 @@ header{
     
 }
 main{
-    background:#cbc8f7;
+    background:#dcdaf8;
     height:auto;
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@ main{
 #controls{
     padding-top: 50px;
     padding-bottom: 50px;
-    background: pink;
+    
 }
 button{
     background: rgb(47, 238, 190);
@@ -51,14 +51,21 @@ button{
 }
 
 #result{
-    background: red;
+    
     padding-left: 200px;
     padding-right: 200px;
     width:800px;
+   
     word-wrap: break-word;
-    /*display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     vertical-align: middle;
-    justify-content: center;*/
+    justify-content: center;
 }
+table{
+    border-collapse: separate;
+    border-spacing: 20px;
+    box-shadow: #6f6f70;
+}
+
