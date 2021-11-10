@@ -1,8 +1,8 @@
 body{
     display:flex;
     flex-direction: column;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 header{
@@ -30,10 +30,24 @@ main{
 #controls{
     padding-top: 50px;
     padding-bottom: 50px;
-    
+    display: flex;
+    flex-direction: row;
+    column-gap:5px;
 }
-button{
-    background: rgb(47, 238, 190);
+#controls label{
+    padding-top: 15px;
+}
+
+#lookup{
+    background: rgb(60, 240, 195);
+    color:white;
+    width:100px;
+    height: 50px; 
+    border-radius: 5px; 
+    border: 0px;
+}
+#cities{
+    background: #3d49ec;
     color:white;
     width:100px;
     height: 50px; 
